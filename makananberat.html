@@ -34,8 +34,35 @@
     color: white;
 }
 
-.container {
-        padding: 20px;
+.grid{
+        display:grid;
+        grid-template-columns: repeat(5,1fr);
+        margin: 80px;
+        align-items: center;
+        grid-gap: 30px;
+    }
+
+    img{
+        object-fit: cover;
+    }
+
+    .grid > article{
+        box-shadow: 10px 5px 5px 0px black;
+        border-radius: 30px;
+        text-align: center;
+        background: 300px;
+    }
+
+    .grid > article img {
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        width: 100%;
+    }
+
+    @media (max-width : 1000px){
+        .grid{
+            grid-template-columns: repeat(2,1fr);
+        }
     }
 
     .card {
@@ -131,96 +158,96 @@ footer {
     </header>
 
     <div class="container">           
-        <div class="card">
-            <a href="Ayam Geprek AA Depot Caffe.html">
-            <img src="geprekdepotaa.png" alt="Nasi Geprek">
+        <main class="grid">
+            <article>
+            <a href="Ayam Geprek AA Depot Caffe.html"  >
+            <img src="geprekdepotaa.png" alt="Nasi Geprek" width="300px" height="300px">
             <div class="content">
                 <h3>Geprek Depot Cafe</h3>
-        </div>
+            </div>
         </a>
-        </div>
-        <div class="card">
+    </article>
+    <article>
             <a href="batagor.html">
-            <img src="batagor.png" alt="batagor" style="padding-top: 13px;">
+            <img src="batagor.png" alt="batagor" width="300px" height="300px">
             <div class="content">
                 <h3>Batagor</h3>
             </div>
         </a>
-        </div>
-        <div class="card">
+    </article>
+    <article>
             <a href="nasigoreng.html">
-            <img src="nasigoreng.png" alt="nasigoreng" style="padding-top: 15px;">
+            <img src="nasigoreng.png" alt="nasigoreng" width="300px" height="300px">
             <div class="content">
                 <h3>Nasi Goreng</h3>
         </div>
         </a>
-        </div><div class="card">
+    </article>
+    <article>
             <a href="bebekpurnama2.html">
-            <img src="bebekpurnama1.png" alt="bebekpurnama" style="width: 195px;">
+            <img src="bebekpurnama1.png" alt="bebekpurnama" width="300px" height="300px">
             <div class="content">
                 <h3>Bebek Purnama</h3>
         </div>
         </a>
-        </div>
-        <div class="card">
+    </article>
+    <article>
             <a href="sate.html">
-            <img src="sate2.png" alt="Sate" style="padding-top: 40px;">
+            <img src="sate2.png" alt="Sate" width="300px" height="300px">
             <div class="content">
                 <h3>Sate</h3>
         </div>
         </a>
-        </div>
-        <div class="card">
+    </article>
+    <article>
             <a href="geprekwdk.html">
-            <img src="nasi-geprek.png" alt="Geprekwdk" style="padding-top: 40px;padding-bottom: 3px;">
+            <img src="nasi-geprek.png" alt="Geprekwdk" width="300px" height="300px">
             <div class="content">
                 <h3>Ayam Geprek WDK</h3>
         </div>
         </a>
-        </div>
-        <div class="card">
+    </article>
+    <article>
             <a href="nasipecel.html">
-            <img src="nasi-pecel-piring.png" alt="Nasi Pecel" style="width:190px; padding-left: 5px;margin-top: 40px; margin-bottom: 25px;">
+            <img src="nasi-pecel-piring.png" alt="Nasi Pecel" width="300px" height="300px">
             <div class="content">
                 <h3>Nasi Pecel</h3>
             </div>
         </a>
-        </div>
-        <div class="card">
+    </article>
+    <article>
             <a href="sambalgami.html">
-            <img src="sambalgami.png" alt="Sambal Gami" style="padding-top: 40px; padding-bottom: 15px;">
+            <img src="sambalgami.png" alt="Sambal Gami" width="300px" height="300px">
             <div class="content">
                 <h3>Sambal Gami</h3>
         </div>
         </a>
-        </div><div class="card">
+    </article>
+    <article>
             <a href="plencingkangkung.html">
-            <img src="pelecing-kangkung.png" alt="Nama Makanan" style="padding-top: 40px; width: 180px; padding-left: 10px;">
+            <img src="pelecing-kangkung.png" alt="Nama Makanan" width="300px" height="300px">
             <div class="content">
                 <h3>Plencing Kangkung Surabaya</h3>
         </div>
         </a>
-        </div>
-        <div class="card">
+    </article>
+    <article>
             <a href="bebeksuramadu.html">
-            <img src="bebek-suramadu.png" alt="bebeksuramadu" style="padding-top: 20px;">
+            <img src="bebek-suramadu.png" alt="bebeksuramadu" width="300px" height="300px">
             <div class="content">
                 <h3>Bebek Suramadu</h3>
         </div>
         </a>
-        </div>
-        <div class="card">
+    </article>
+    <article>
             <a href="rujak cingur kwanyar.html">
-            <img src="rujakcingurkwayar.png" alt="Rujak Cingur" style="width: 190px;padding-left: 5px;padding-top: 40px; padding-bottom: 20px;">
+            <img src="rujakcingurkwayar.png" alt="Rujak Cingur" width="300px" height="300px">
             <div class="content">
                 <h3>Rujak Cingur Kwanyar</h3>
         </div>
         </a>
-        </div>
-        <div class = putih>
-            <p>putih</p>
-
-        </div>
+    </article>
+    </main>
     </div>
     
     <footer>
