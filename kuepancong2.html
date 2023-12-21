@@ -86,17 +86,19 @@ img {
 }
 
 .sate-section {
-    padding: 30px;
-    margin: 30px 20px; /* Menambahkan margin di kiri dan kanan */
-    width: 50%; /* Mengatur lebar elemen menjadi setengah dari lebar halaman */
+    padding: 25px;
+    margin: 20px 20px; /* Menambahkan margin di kiri dan kanan */
+    
     float: left; /* Menggunakan float untuk menyusun elemen secara horizontal */
     box-sizing: border-box;
     text-align: justify;
 }
 
 .sate-section h1 {
+    text-align: center;
     color: #3c604d;
     font-size: 30px;
+
 }
 
 footer {
@@ -113,9 +115,9 @@ footer {
 
 /* Menambahkan aturan untuk gambar di sebelah kanan */
 .gambar {
-    float: right;
-    max-width: 50%; /* Membatasi lebar gambar agar tidak melebihi setengah lebar elemen */
-    margin-left: 10px; /* Memberikan ruang antara teks dan gambar */   
+     /* Membatasi lebar gambar agar tidak melebihi setengah lebar elemen */
+    /* Memberikan ruang antara teks dan gambar */   
+    margin-top: 30px;
 }
     </style>
 </head>
@@ -125,33 +127,35 @@ footer {
         <nav class="navbar">
             <img src="logokelas.png" alt="logo" width="50" height="50">
             <div class="menu-links">
-                <a href="index.html" class="active">Home</a>
-                <a href="menu.html">Menu</a>
+                <a href="index.html">Home</a>
+                <a href="menu.html" class="active">Menu</a>
                 <a href="about.html">About</a>
                 <a href="contact.html">Contact</a>
             </div>
         </nav>
     </header>
-
+    <div style="background-color: #dfdddd; color: #000000; padding-left: 5%; padding-right: 5%;">
+       
+<center> 
+    <img class=gambar src="tempatpancong.jpg" alt="Sate" width="250px" height="auto">
+    <img class=gambar src="menupancong.jpg" alt="Sate" width="250px" height="auto">
+    <img class=gambar src="kuepancongasli.jpg" alt="Sate" width="250px" height="auto">
+    <img class=gambar src="fotoaulia.jpg" alt="Sate" width="250px" height="auto">
+</center>
     <main>
         <section class="sate-section">
             <h1>Kue Pancong</h1>
-            <p>
-                Kue pancong merupakan jajanan kaki lima yang berasal dari Betawi, kue ini umumnya sering ditemui di pasar-pasar tradisional Indonesia. Disebut kue pancong karena cara membuatnya dengan cetakan kue dari wajan bernama “pancong”. Kue pancong termasuk dalam kategori makanan ringan.
-            </p>
-            <p>Anda bisa mendapatkan alamatnya pada link berikut <a href="https://goo.gl/maps/YL3hSMEPkVkZDzVS9">Link</a></p>
+            <p>Kue pancong merupakan jajanan kaki lima yang berasal dari Betawi, kue ini umumnya sering ditemui di pasar-pasar tradisional Indonesia. </p>
+            <p>Disebut kue pancong karena cara pembuatannya dari cetakan kue dari wajan bernama “pancong”. Kue pancong masuk kategori makanan ringan.</p>
+            <p>Seiring berjalannya waktu kue pancong ini sering diberi toping pemanis berupa siraman rasa-rasa tertentu juga taburan seperti keju parut.</p>
+            <p>Letaknya tepat didepan fotocopy EBECE dan diapit oleh beberapa jajanan lain seperti seblak prasmanan, es teh serta warmindo (warung indomy).</p>
+            <p>Anda bisa mendapatkan alamatnya pada link berikut <a href="https://goo.gl/maps/zSavykUnCUnV4ndg8">Link</a></p>
         </section>
 
     </main>
-    <img class=gambar src="kuepancong.png" alt="kuepancong" width="500" height="500">
+</div>
 
     <footer>
-        <nav class="navbarbawah a">
-            <a href="index.html" >Sate</a>
-            <a href="bebekpurnama.html">Bebek Purnama</a>
-            <a href="geprekwdk.html">Geprek WDK</a>
-            <a href="#" id="kuepancong" class="active" >Kue Pancong</a>
-        </nav>
         <small>&copy; 2023 - All Rights Reserved</small>
     </footer>
 
